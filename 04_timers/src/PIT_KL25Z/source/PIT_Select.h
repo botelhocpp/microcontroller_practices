@@ -1,0 +1,11 @@
+#ifndef PIT_SELECT_H
+#define PIT_SELECT_H
+
+/*
+ * SELECT PROJECT WITH PIT:
+ * 1 = BLINK TWO LEDs WITH 2s AND 8s DELAY
+ * 1 = BLINK TWO LEDs WITH 2s AND 8s DELAY WITH SDK
+ */
+#define PIT_PROJECT 1
+
+#endif

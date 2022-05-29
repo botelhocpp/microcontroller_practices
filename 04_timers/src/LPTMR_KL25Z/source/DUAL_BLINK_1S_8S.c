@@ -1,0 +1,62 @@
+#include "LPTMR_Select.h"
+#if LPTMR_PROJECT == 3
+
+#include "MKL25Z4.h"
+#include "LPTMR_KL25Z.h"
+
+void LEDS_Init(void);
+void LPTMR0_Init(void);
+
+static uint8_t blinkCount = 0;
+
+int main(void) {
+	LEDS_Init();
+	LPTMR0_Init();
+	while(1);
+}
+
+void LPTMR0_IRQHandler(void) {
+	// BLINK THE SECOND LED IN 6s
+	if(blinkCount == 2) {
+		LED_02_GPIO->PTOR |= LED_02_MASK;
+	}
+
+	// BLINK THE FIRST LED IN 2s
+	LED_01_GPIO->PTOR |= LED_01_MASK;
+
+	// GET THE CURRENT COUNTER
+	blinkCount = (blinkCount + 1) % 3;
+
+	// CLEAR INTERRUPT FLAG
+	LPTMR0->CSR |= LPTMR0_INTERRUPT_FLAG;
+}
+
+void LEDS_Init(void) {
+	SIM->SCGC5 |= LED_01_CLOCK | LED_02_CLOCK;
+
+	LED_01_PORT->PCR[LED_01] |= PORT_MUX_GPIO;
+	LED_02_PORT->PCR[LED_02] |= PORT_MUX_GPIO;
+
+	LED_01_GPIO->PDDR |= LED_01_MASK;
+	LED_02_GPIO->PDDR |= LED_02_MASK;
+}
+
+void LPTMR0_Init(void) {
+	// ENABLE CLOCK FOR LPTMR0
+	SIM->SCGC5 |= LPTMR0_CLOCK;
+
+	// SELECT 1KHz CLOCK AND A /2 PRESCALER
+	LPTMR0->PSR |= LPTMR0_CLOCK_LPO;
+
+	// T = (1/(1KHz/2)) = 2ms
+	// CMR = 2s/2ms = 1000 COUNTS
+	LPTMR0->CMR = 999;
+
+	// ENABLE INTERRUPTS FOR LPTMR0 AND ENABLE IT
+	LPTMR0->CSR |= LPTMR0_TIMER_ENABLE | LPTMR0_INTERRUPT_ENABLE;
+
+	// ENABLE INTERRUPTS FOR LPTMR0 IN NVIC
+	NVIC->ISER[0] |= NVIC_ENABLE_LPTMR0;
+}
+
+#endif
