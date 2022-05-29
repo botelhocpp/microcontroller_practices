@@ -18,6 +18,8 @@ All the practices and projects made in the course will be available in the repos
 
 1) Introduction to Microcontrollers and Embedded Systems.
 2) Basic Configuration of General Purpose I/O (GPIO).
+3) Interruptions.
+4) Timers (LPTMR, PIT and TPM).
 
 ### Technologies
 
