@@ -1,6 +1,6 @@
 /**
  * @author  Pedro Botelho
- * @file    SW_LED_IRQHandler.h
+ * @file    Switch_Led_Interrupt_SDK.h
  * @brief   Definition of the functions used in the main
  * 			function, as well as macros to facilitate
  * 			maintenance.

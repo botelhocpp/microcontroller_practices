@@ -1,6 +1,6 @@
 /**
  * @author  Pedro Botelho
- * @file    SW_LED_IRQHandler.c
+ * @file    Switch_Led_Interrupt_SDK.c
  * @brief   If SW1, in PTD4, is pressed, light LED_GREEN_D1, PTC8.
  * 			If SW2 is pressed, PTA12, light LED_GREEN_D3, PTA13.
  *
