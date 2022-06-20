@@ -18,7 +18,7 @@ All the practices and projects made in the course will be available in the repos
 
 1) Introduction to Microcontrollers and Embedded Systems.
 2) Basic Configuration of General Purpose I/O (GPIO).
-3) ~~Configuration and Handling of External Interruptions.~~
+3) Configuration and Handling of External Interruptions.
 4) ~~Counting Time with Timers (LPTMR, PIT and TPM).~~
 5) ~~Controlling LED Intensity and Motor Rotation with PWM.~~
 6) ~~Potentiometer and Sensor Interface with ADC.~~
