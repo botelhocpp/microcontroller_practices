@@ -1,0 +1,2 @@
+../source/k32l2b3/delay.c:10:6:delay_ms	32	static
+../source/k32l2b3/delay.c:25:6:delay_us	32	static

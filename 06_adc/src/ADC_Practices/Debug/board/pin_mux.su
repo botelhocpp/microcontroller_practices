@@ -1,0 +1,12 @@
+/home/pedrobotelho15/Área de Trabalho/Projetos com K32L2B3/ADC_Practices/drivers/fsl_clock.h:438:20:CLOCK_EnableClock	24	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com K32L2B3/ADC_Practices/drivers/fsl_port.h:271:20:PORT_SetPinConfig	32	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com K32L2B3/ADC_Practices/drivers/fsl_port.h:374:20:PORT_SetPinMux	24	static
+../board/pin_mux.c:103:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:125:6:BOARD_InitPins	8	static
+../board/pin_mux.c:159:6:BOARD_InitLCDPins	8	static
+../board/pin_mux.c:416:6:BOARD_InitBUTTONSPins	24	static
+../board/pin_mux.c:484:6:BOARD_InitLEDsPins	24	static
+../board/pin_mux.c:550:6:BOARD_InitDEBUG_UARTPins	16	static
+../board/pin_mux.c:614:6:BOARD_InitUSBPins	8	static
+../board/pin_mux.c:680:6:BOARD_InitACCEL_I2CPins	24	static
+../board/pin_mux.c:784:6:BOARD_InitOSCPins	8	static

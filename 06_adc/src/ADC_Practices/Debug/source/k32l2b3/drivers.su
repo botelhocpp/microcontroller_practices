@@ -1,0 +1,11 @@
+../source/k32l2b3/drivers.c:42:6:drvCpuClockInit	8	static
+../source/k32l2b3/drivers.c:50:6:drvLedInit	8	static
+../source/k32l2b3/drivers.c:66:6:drvButtonInit	8	static
+../source/k32l2b3/drivers.c:83:6:drvLedSet	24	static
+../source/k32l2b3/drivers.c:106:18:drvCheckButtonLevel	24	static
+../source/k32l2b3/drivers.c:118:6:drvCheckButtonPressed	16	static
+../source/k32l2b3/drivers.c:128:6:drvButtonIntEnable	24	static
+../source/k32l2b3/drivers.c:141:6:drvButtonIntClear	24	static
+../source/k32l2b3/drivers.c:150:6:drvButtonIntCheck	24	static
+../source/k32l2b3/drivers.c:164:16:drvGetLed	16	static
+../source/k32l2b3/drivers.c:176:16:drvGetButton	16	static

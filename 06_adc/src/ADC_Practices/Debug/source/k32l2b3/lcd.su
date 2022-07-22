@@ -1,0 +1,16 @@
+../source/k32l2b3/lcd.c:145:6:lcdInitPinsModule	16	static
+../source/k32l2b3/lcd.c:155:6:lcdInitModule	16	static
+../source/k32l2b3/lcd.c:168:6:lcdClearDisplay	16	static
+../source/k32l2b3/lcd.c:173:6:lcdSetCursor	24	static
+../source/k32l2b3/lcd.c:181:6:lcdWriteString	24	static
+../source/k32l2b3/lcd.c:187:6:lcdWriteChar	16	static
+../source/k32l2b3/lcd.c:191:6:lcdReturnCursor	16	static
+../source/k32l2b3/lcd.c:195:6:lcdScrollLeft	16	static
+../source/k32l2b3/lcd.c:199:6:lcdScrollRight	16	static
+../source/k32l2b3/lcd.c:204:6:lcdCreateChar	32	static
+../source/k32l2b3/lcd.c:216:6:lcdCreateBigNumbers	24	static
+../source/k32l2b3/lcd.c:224:6:lcdWriteBigNumber	16	static
+../source/k32l2b3/lcd.c:239:6:lcdSendCommand	16	static
+../source/k32l2b3/lcd.c:258:6:lcdSendData	16	static
+../source/k32l2b3/lcd.c:269:6:lcdSendBits	24	static
+../source/k32l2b3/lcd.c:276:6:lcdEnablePulse	16	static

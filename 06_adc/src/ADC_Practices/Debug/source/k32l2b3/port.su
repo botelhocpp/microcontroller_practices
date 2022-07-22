@@ -1,0 +1,12 @@
+../source/k32l2b3/port.c:28:6:portPinNumberValidate	16	static
+../source/k32l2b3/port.c:32:6:portPortValidate	16	static
+../source/k32l2b3/port.c:36:6:portPinValidate	16	static
+../source/k32l2b3/port.c:44:6:portInitPort	16	static
+../source/k32l2b3/port.c:51:6:portSetPinMux	32	static
+../source/k32l2b3/port.c:61:6:portSetMux	24	static
+../source/k32l2b3/port.c:68:6:portSetMuxGpio	16	static
+../source/k32l2b3/port.c:72:6:portConfigInterrupt	24	static
+../source/k32l2b3/port.c:94:6:portConfigPullup	24	static
+../source/k32l2b3/port.c:104:6:portCheckInterrupt	24	static
+../source/k32l2b3/port.c:113:6:portClearInterrupt	24	static
+../source/k32l2b3/port.c:122:12:portGetPinPort	16	static

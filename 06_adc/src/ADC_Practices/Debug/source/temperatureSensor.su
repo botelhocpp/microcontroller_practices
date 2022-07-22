@@ -1,0 +1,2 @@
+../source/temperatureSensor.c:47:5:main	16	static
+../source/temperatureSensor.c:69:6:initLm35Component	16	static

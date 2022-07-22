@@ -1,0 +1,5 @@
+../source/k32l2b3/clock.c:33:6:clkEnablePeripheralClock	16	static
+../source/k32l2b3/clock.c:46:6:clkEnableClock	16	static
+../source/k32l2b3/clock.c:70:6:clkSetMainClock	16	static
+../source/k32l2b3/clock.c:90:6:clkGetMainClock	16	static
+../source/k32l2b3/clock.c:116:6:clkGetERClock	8	static
