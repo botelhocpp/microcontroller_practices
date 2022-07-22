@@ -1,0 +1,4 @@
+../source/TPM_BASIC.c:13:5:main	8	static
+../source/TPM_BASIC.c:19:6:TPM0_IRQHandler	8	static
+../source/TPM_BASIC.c:30:6:LEDS_Init	8	static
+../source/TPM_BASIC.c:40:6:TPM0_Init	8	static

@@ -1,0 +1,4 @@
+../source/LPTMR_KL25Z.c:10:5:main	8	static
+../source/LPTMR_KL25Z.c:16:6:LPTMR0_IRQHandler	8	static
+../source/LPTMR_KL25Z.c:25:6:LEDS_Init	8	static
+../source/LPTMR_KL25Z.c:35:6:LPTMR0_Init	8	static

@@ -1,0 +1,4 @@
+../source/PIT_1_SECOND.c:10:5:main	8	static
+../source/PIT_1_SECOND.c:16:6:PIT_IRQHandler	8	static
+../source/PIT_1_SECOND.c:27:6:LEDS_Init	8	static
+../source/PIT_1_SECOND.c:37:6:PIT0_Init	8	static

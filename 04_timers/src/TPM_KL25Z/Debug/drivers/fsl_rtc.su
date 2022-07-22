@@ -1,0 +1,13 @@
+../drivers/fsl_clock.h:584:20:CLOCK_EnableClock	24	static
+../drivers/fsl_rtc.h:279:24:RTC_GetStatusFlags	16	static
+../drivers/fsl_rtc.h:356:20:RTC_Reset	16	static
+../drivers/fsl_rtc.c:75:13:RTC_CheckDatetimeFormat	40	static
+../drivers/fsl_rtc.c:107:17:RTC_ConvertDatetimeToSeconds	56	static
+../drivers/fsl_rtc.c:137:13:RTC_ConvertSecondsToDatetime	56	static
+../drivers/fsl_rtc.c:208:6:RTC_Init	24	static
+../drivers/fsl_rtc.c:239:6:RTC_GetDefaultConfig	16	static
+../drivers/fsl_rtc.c:255:10:RTC_SetDatetime	16	static
+../drivers/fsl_rtc.c:271:6:RTC_GetDatetime	24	static
+../drivers/fsl_rtc.c:281:10:RTC_SetAlarm	24	static
+../drivers/fsl_rtc.c:311:6:RTC_GetAlarm	24	static
+../drivers/fsl_rtc.c:323:6:RTC_ClearStatusFlags	16	static

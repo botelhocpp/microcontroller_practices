@@ -1,0 +1,14 @@
+/home/pedrobotelho15/Área de Trabalho/Projetos com NXP/TPM_KL25Z/CMSIS/core_cm0plus.h:745:22:NVIC_EnableIRQ	16	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com NXP/TPM_KL25Z/drivers/fsl_clock.h:584:20:CLOCK_EnableClock	24	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com NXP/TPM_KL25Z/drivers/fsl_clock.h:614:20:CLOCK_SetTpmClock	16	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com NXP/TPM_KL25Z/drivers/fsl_tpm.h:518:20:TPM_ClearStatusFlags	16	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com NXP/TPM_KL25Z/drivers/fsl_tpm.h:545:20:TPM_SetTimerPeriod	16	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com NXP/TPM_KL25Z/drivers/fsl_tpm.h:579:20:TPM_StartTimer	24	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com NXP/TPM_KL25Z/drivers/fsl_port.h:321:20:PORT_SetPinMux	24	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com NXP/TPM_KL25Z/drivers/fsl_gpio.h:197:20:GPIO_TogglePinsOutput	16	static
+../source/DUAL_BLINK_2S_8S_SDK.c:20:5:main	8	static
+../source/DUAL_BLINK_2S_8S_SDK.c:27:6:TPM0_IRQHandler	8	static
+../source/DUAL_BLINK_2S_8S_SDK.c:32:6:TPM1_IRQHandler	8	static
+../source/DUAL_BLINK_2S_8S_SDK.c:37:6:LEDS_Init	8	static
+../source/DUAL_BLINK_2S_8S_SDK.c:53:6:TPM0_Init	8	static
+../source/DUAL_BLINK_2S_8S_SDK.c:81:6:TPM1_Init	8	static
