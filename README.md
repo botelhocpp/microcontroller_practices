@@ -11,7 +11,7 @@
 
 ### About
 
-This is the repository for the <b>MICROCONTROLLERS</b> course, where the material produced during the discipline is located, such as reports, codes and circuit schematics for the **ARM Cortex-M0+** processor, using NXP microcontrollers (for **ARM Cortex-M3**, using Micfoc).
+This is the repository for the <b>MICROCONTROLLERS</b> course, where the material produced during the discipline is located, such as reports, codes and circuit schematics for the **ARM Cortex-M0+** processor, using NXP microcontrollers (for **ARM Cortex-M3**, using Microchip's SAM3X8E, see this <a href="https://github.com/pedrobotelho15/sam3x8e_microcontroller_practices">repository</a>).
 
 For the updated API for **FRDM-K32L2B3** and **FRDM-KL43Z**, visit the <a href="https://github.com/pedrobotelho15/Drivers_API_K32_KL43">repository</a>.
 
