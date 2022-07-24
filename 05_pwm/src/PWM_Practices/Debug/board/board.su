@@ -1,0 +1,6 @@
+/home/pedrobotelho15/Área de Trabalho/Projetos com K32L2B3/PWM_Practices/CMSIS/core_cm0plus.h:779:22:__NVIC_DisableIRQ	16	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com K32L2B3/PWM_Practices/CMSIS/core_cm0plus.h:832:22:__NVIC_ClearPendingIRQ	16	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com K32L2B3/PWM_Practices/drivers/fsl_clock.h:470:20:CLOCK_SetLpuart0Clock	16	static
+/home/pedrobotelho15/Área de Trabalho/Projetos com K32L2B3/PWM_Practices/utilities/fsl_debug_console.h:154:24:DbgConsole_Init	24	static
+../board/board.c:25:6:BOARD_InitDebugConsole	16	static
+../board/board.c:111:6:SystemInitHook	8	static

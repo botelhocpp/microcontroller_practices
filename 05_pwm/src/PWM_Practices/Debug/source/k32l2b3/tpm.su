@@ -1,0 +1,13 @@
+../source/k32l2b3/tpm.c:24:6:tpmGetDefaultConfig	16	static
+../source/k32l2b3/tpm.c:32:6:tpmInitModule	24	static
+../source/k32l2b3/tpm.c:44:10:tpmGetSourceClock	32	static
+../source/k32l2b3/tpm.c:61:6:tpmSetModuleValue	16	static
+../source/k32l2b3/tpm.c:65:10:tpmGetModuleValue	16	static
+../source/k32l2b3/tpm.c:69:6:tpmSetChannelValue	24	static
+../source/k32l2b3/tpm.c:87:10:tpmGetChannelValue	16	static
+../source/k32l2b3/tpm.c:94:6:tpmSetDutyCycle	24	static
+../source/k32l2b3/tpm.c:113:6:tpmStartTimer	16	static
+../source/k32l2b3/tpm.c:117:6:tpmStopTimer	16	static
+../source/k32l2b3/tpm.c:121:6:tpmStartModuleTimer	16	static
+../source/k32l2b3/tpm.c:125:6:tpmStopModuleTimer	16	static
+../source/k32l2b3/tpm.c:133:11:tpmGetTpmModule	16	static

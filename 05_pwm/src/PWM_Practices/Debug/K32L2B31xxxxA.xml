@@ -1,0 +1,5 @@
+<directory>
+ <chips chipVendor='NXP' >
+  <chip name='K32L2B31xxxxA' xml_file='K32L2B31xxxxA_part.xml' />
+ </chips>
+</directory> 

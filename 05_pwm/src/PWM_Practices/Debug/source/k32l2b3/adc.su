@@ -1,0 +1,4 @@
+../source/k32l2b3/adc.c:8:6:adcReadInput	16	static
+../source/k32l2b3/adc.c:15:6:adcGetDefaultConfig	16	static
+../source/k32l2b3/adc.c:24:6:adcInitModule	16	static
+../source/k32l2b3/adc.c:42:6:adcCalibrate	16	static

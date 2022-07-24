@@ -1,0 +1,4 @@
+../source/k32l2b3/gpio.c:26:6:gpioPinInit	24	static
+../source/k32l2b3/gpio.c:49:6:gpioPinWrite	24	static
+../source/k32l2b3/gpio.c:68:6:gpioPinToggle	24	static
+../source/k32l2b3/gpio.c:78:12:gpioPinRead	16	static

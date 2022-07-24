@@ -1,0 +1,14 @@
+../source/k32l2b3/servo.c:16:6:servoGetDefaultConfig	16	static
+../source/k32l2b3/servo.c:28:6:servoInitModule	40	static
+../source/k32l2b3/servo.c:44:6:servoWrite	32	static
+../source/k32l2b3/servo.c:60:6:servoWriteAngle	40	static
+../source/k32l2b3/servo.c:66:10:servoGetCurrentValue	16	static
+../source/k32l2b3/servo.c:70:9:servoGetCurrentAngle	48	static
+../source/k32l2b3/servo.c:76:6:servoSetMinimumValue	40	static
+../source/k32l2b3/servo.c:84:6:servoSetMaximumValue	40	static
+../source/k32l2b3/servo.c:92:10:servoGetMinimumValue	24	static
+../source/k32l2b3/servo.c:97:10:servoGetMaximumValue	24	static
+../source/k32l2b3/servo.c:102:6:servoSetMinimumAngle	40	static
+../source/k32l2b3/servo.c:110:6:servoSetMaximumAngle	40	static
+../source/k32l2b3/servo.c:118:9:servoGetMinimumAngle	48	static
+../source/k32l2b3/servo.c:127:9:servoGetMaximumAngle	48	static

@@ -1,0 +1,4 @@
+../source/k32l2b3/systick.c:7:6:systickInitTimer	24	static
+../source/k32l2b3/systick.c:34:6:systickCheckFlag	8	static
+../source/k32l2b3/systick.c:39:6:systickStartTimer	8	static
+../source/k32l2b3/systick.c:44:6:systickStopTimer	8	static
